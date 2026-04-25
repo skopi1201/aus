@@ -1,0 +1,9 @@
+STA 88
+TCP 28678
+
+DO_REG  1  1800  0  0  1  0  DO  @STOP
+DO_REG  1  1802  0  0  1  0  DO  @V1
+DO_REG  1  1805  0  0  1  0  DO  @P1
+DO_REG  1  1806  0  0  1  0  DO  @P2
+IN_REG  1  800   0  0  4095  0  AI  @L
+HR_INT  1  2800  0  0  4095  0  AO  @N1
